@@ -1,0 +1,112 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.navbar ul{
+    padding:0px;
+    margin: 0px;;
+    list-style: none;
+    background-color: rgb(5, 57, 57);
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+    padding:15px;
+    display: block;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition:0.2s;
+}
+.navbar a:hover{
+transition: 0.2s;
+background-color: rgb(4, 88, 88);
+cursor:pointer;
+text-decoration:underline;
+}
+.navbar li{
+    float:left;
+}
+img{
+    margin-left:530px;
+    height:400px;
+    width:350px;
+    border:5px solid black;
+    margin-top:30px;
+    border-radius:50px;
+}
+.about{
+    background-color:rgb(13, 234, 234);
+    height:50px;
+    width:170px;
+    margin-left:630px;
+    font-weight:bold;
+    font-size:20px;
+    border:5px solid black;
+    border-radius:10px;
+    margin-top:10px;
+    transition: 0.1s;
+}
+.about:hover{
+    transition:0.1s;
+    letter-spacing:0.1em;
+    background-color: rgb(191, 245, 12);
+}
+.About{
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.first{
+    color:rgb(7, 243, 105);
+    margin: 0px;
+    padding:0px;
+    font-weight:bold;
+    font-size:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:400px;
+}
+.second{
+    color:rgb(237, 160, 6);
+    padding:0px;
+    margin:0px;
+    font-weight:bold;
+    font-size:45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:500px;
+}
+.third{
+    color:rgb(12, 139, 242);
+    padding:0px;
+    margin:0px;
+    font-weight:bold;
+    font-size:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:800px;
+    transition:0.1s;
+    text-decoration: none;
+}
+.third:hover{
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    transition:0.1s;
+
+}
+
+main{
+    background-image: url("image3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box{
+    animation-name:moveimage;
+    animation-duration: 2s;
+}
+@keyframes moveimage{
+    from{
+        transform:rotateX(360deg)
+    }
+}

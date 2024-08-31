@@ -1,0 +1,105 @@
+body{
+    background-image: url("image4.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    animation-name:design;
+    animation-duration:3s;
+}
+.skills{
+    text-align:center;
+    font-size:55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(9, 251, 182);
+    padding:0px;
+    margin:0px;
+}
+.frontend{
+    color:chartreuse;
+    font-size:45px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.firsth3{
+    color:white;
+    font-size:35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:20px;
+    margin-right:20px;
+}
+.secondh3{
+    color:white;
+    font-size:35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:20px;
+    margin-right:20px;
+}
+.backend{
+    color:rgb(0, 21, 250);
+    font-size:45px;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thirdh3{
+    color:white;
+    font-size:35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:20px;
+    margin-right:20px;
+}
+.fourthh3{
+    color:white;
+    font-size:35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:20px;
+    margin-right:20px;
+}
+footer{
+    font-size:25px;
+    color:white;
+}
+.footer{
+    text-decoration: none;
+    font-weight:bold;
+    transition:0.5s;
+    color:aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer:hover{
+    transition:0.5s;
+    cursor:pointer;
+    text-decoration:underline;
+    letter-spacing:0.1em;
+}
+.btn{
+    margin-left:1100px;
+    color:black;
+    background-color: darkorange;
+    width:90px;
+    height:40px;
+    border:2px solid black;
+    border-radius:10px;
+    font-size:22px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition:0.1s;
+}
+.btn:hover{
+    transition:0.1s;
+    background-color: rgb(212, 94, 10);
+    cursor:pointer;
+
+}
+.btn:active{
+    background-color: rgb(212, 141, 10);
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+@keyframes design{
+    from{
+        transform:rotateX(360deg);
+    }
+}
